@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    /* border: 2px solid red ; */
+    font-family: sans-serif;
+    
+}
+html,body{
+height: 100vh;
+width: 100%;
+}
+
+/* ..........Nav-Bar........ */
+
+.Nav-bar{
+    background-color: lightgray;
+    padding: 5px; 
+}
+.inner-nav{
+    max-width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 0px;
+}
+.brand-name {
+    text-decoration: none;
+   
+}   
+.brand-name span{
+color: red;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style-type: none;   
+}
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+li{
+
+    font-weight: 700;
+    font-size: 20px;
+    
+    text-decoration: none;
+}
+.nav-left{
+    display: flex;
+    gap: 10px;
+}
+.nav-location{
+    display: flex;
+    align-items: center;
+}
+.activee{
+    border-bottom: 2px solid red;
+}
+a{
+    text-decoration: none;
+}
+.cart-number{
+   display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 12px;
+    font-size: 10px;
+    color: white;
+
+}
+.link{
+    position: relative;
+}
+.icon-nav{
+    font-size: 25px;
+}
+.nav-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
