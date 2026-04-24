@@ -59,6 +59,10 @@ li{
     display: flex;
     align-items: center;
 }
+.location-nav{
+    display: flex;
+    gap: 5px;
+}
 .activee{
     border-bottom: 2px solid red;
 }
@@ -81,6 +85,8 @@ a{
     color: white;
 
 }
+
+
 .link{
     position: relative;
 }
@@ -95,3 +101,50 @@ a{
     color: white;
     font-weight: 600;
 }
+.Drop-down{
+    width: 200px;
+    height: 80px;
+    
+    z-index: 50;
+    top: 70px; 
+    margin-left: 100px;
+    padding: 20px;
+    gap: 20px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(224, 224, 224);
+    border-radius: 7px;
+
+}
+.Drop-down h1{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    
+
+}
+.dlt-Location{
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    margin-top: 30px;
+    margin: auto;
+}
+.location-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+
+/* .............. Home Page ................. */
+
+
+
+
